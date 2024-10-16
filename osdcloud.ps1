@@ -1,7 +1,7 @@
 Write-Host -ForegroundColor Green "Starting Smart2Cloud ZTI"
 
 Start-Sleep -Seconds 2
-#.
+
 net use Z: \\WIN-T7I96T9MLSS\pi /user:osdcloud osdcloud
 Write-Host -ForegroundColor Green "Mapping OSDCloud Network Folder"
 
